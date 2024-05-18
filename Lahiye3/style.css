@@ -1,0 +1,121 @@
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.second {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.currency-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.currency {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: calc(100% - 40px);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.currency {
+    background-color: #ffffff;
+    color: #808080;
+    border: 1px solid #808080;
+}
+
+.currency.selected {
+    background-color: #6f42c1;
+    color: #ffffff;
+}
+h1{
+    position: relative;
+    left: 380px;
+}
+p {
+    color: #808080;
+}
+.second input[type="number"] {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#conversionResult {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#fromAmountInput{
+    height: 102px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+#toAmountInput{
+    height: 102px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+#fromCurrencyValue{
+    color: #ccc;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+#toCurrencyValue{
+color: #ccc;
+position: relative;
+bottom: 20px;
+left: 5px;
+}
+.first{
+    position: relative;
+    top: 28px;
+}
+img{
+position: relative;
+bottom: 16px;
+right: 20px;
+width: 1560px;
+}

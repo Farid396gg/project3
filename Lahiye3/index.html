@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <img src="/Group 6 (1).svg" alt="Header Image">
+    <h1>Конвертация валют онлайн</h1>
+
+    <div class="first">
+        <div class="second" id="fromConverter">
+            <p>У меня есть</p>
+            <div class="currency-box">
+                <button class="currency">USD</button>
+                <button class="currency">EUR</button>
+                <button class="currency">GBP</button>
+                <button class="currency">RUB</button>
+            </div>
+            <input type="number" id="fromAmountInput">
+            <div id="fromCurrencyValue"></div>
+        </div>
+
+        <div class="second" id="toConverter">
+            <p>Хочу приобрести</p>
+            <div class="currency-box">
+                <button class="currency">USD</button>
+                <button class="currency">EUR</button>
+                <button class="currency">GBP</button>
+                <button class="currency">RUB</button>
+            </div>
+            <input type="number" id="toAmountInput" readonly>
+            <div id="toCurrencyValue"></div>
+        </div>
+    </div>
+    <div id="conversionResult"></div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
